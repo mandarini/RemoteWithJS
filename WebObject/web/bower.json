@@ -1,0 +1,10 @@
+{
+    "name": "Controlled-Item",
+    "version": "0.1.0",
+    "main": "osc-render.js",
+    "ignore": [],
+    "dependencies": {
+        "osc.js": "2.2.0",
+        "flocking": "colinbdclark/flocking#master"
+    }
+}
