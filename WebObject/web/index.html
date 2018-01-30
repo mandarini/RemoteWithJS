@@ -6,8 +6,7 @@
         <link rel="stylesheet" type="text/css" media="all" href="osc-view.css"></link>
 
         <script src="/bower_components/osc.js/dist/osc-browser.js"></script>
-        <!--<script src="/bower_components/flocking/dist/flocking-all.min.js"></script>-->
-        <script src="/osc-render.js"></script>
+        <script src="/my-render.js"></script>
     </head>
 
     <body>
@@ -15,11 +14,11 @@
 
         <div id="messageArea">
             <p id="messageLabel">OSC Message:</p>
-            <pre id="message"></pre>
+            <div id="message"></div>
         </div>
 
         <script>
-            var SocketArt = new example.SocketArt();
+            SocketArt();
         </script>
     </body>
 </html>
