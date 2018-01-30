@@ -4,7 +4,6 @@
     "main": "osc-render.js",
     "ignore": [],
     "dependencies": {
-        "osc.js": "2.2.0",
-        "flocking": "colinbdclark/flocking#master"
+        "osc.js": "2.2.0"
     }
 }
