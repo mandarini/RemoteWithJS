@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('browser-component App', () => {
+describe('browser-socket App', () => {
   let page: AppPage;
 
   beforeEach(() => {
