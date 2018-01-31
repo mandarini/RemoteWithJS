@@ -8,7 +8,7 @@ io.on('connection', (socket) => {
   console.log('user connected');
 
 // Log whenever a client disconnects from our websocket server
-socket.on('disconnect', function () {
+socket.on('disconnect', function(){
   console.log('user disconnected');
 });
 
@@ -17,7 +17,7 @@ socket.on('disconnect', function () {
 // using `io.emit()`
 socket.on('message', (message) => {
   console.log("Message Received: " + message);
-io.emit('message', {type: 'new-message', text: message});
+  // io.emit('message', {type:'new-message', text: message});
 });
 });
 
